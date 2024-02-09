@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.parent {
+  margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  background-color: #eee;
+  display: grid;
+  grid-template-areas: "head head nav nav nav" "cont cont cont cont cont";
+  gap: 10px 10px;
+}
+.parent div {
+  background-color: #ff0000;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.fifo {
+  background-color: green;
+}
