@@ -1,14 +1,15 @@
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 .parent {
   margin: 20px auto;
-  width: 800px;
   height: 520px;
   background-color: #eee;
   display: grid;
-  gap: 10px 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* grid-template-columns: minmax(400px, 700px) repeat(2, 500px); */
 }
 
 .parent div {
