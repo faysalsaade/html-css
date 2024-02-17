@@ -1,0 +1,16 @@
+.shape > div {
+  width: 90%;
+  height: 90%;
+  background-color: rgb(255 0 0/39%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.shape > div {
+  transform: matrix(1.2, 0.2679, 0, 1.2, 20, 20);
+}
