@@ -1,0 +1,30 @@
+p {
+  position: relative;
+  color: white;
+  margin: 20px auto;
+  width: fit-content;
+}
+p:before {
+  content: "";
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform: skewx(20deg);
+}
+.shape > div {
+  width: 90%;
+  height: 90%;
+  background-color: rgb(255 0 0/39%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
