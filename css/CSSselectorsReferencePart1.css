@@ -1,0 +1,23 @@
+CSS Selectors
+/* -*
+-element =>[p,div,h2]
+element otherelement=>div p
+.class-name
+#id-name
+.parent .child
+.class-one.class-two 
+.class-name div,.class-name p
+element.class-name*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.parent .child {
+  color: red;
+}
+.parent > .child {
+  color: red;
+}
