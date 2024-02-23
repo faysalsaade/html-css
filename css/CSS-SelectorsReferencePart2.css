@@ -1,0 +1,54 @@
+/* CSS Selectors
+-element =>[p,div,h2]
+element otherelement=>div p
+.class-name
+#id-name
+.parent .child
+.class-one.class-two 
+.class-name div,.class-name p
+element.class-name
+====================
+=======part2======== 
+- element + other element => [div + p ]
+-Element ~ other Elements => [p ~ div ]
+-[attribute]
+-element[attribute]
+-[attribute="value"]
+- element[attribute="value"]
+-input[type="submit"]
+[attribute~=value] => contains a word 
+[attribute*=value] => contains a string 
+[attribute^=value] => start with a string 
+
+*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* div + p {
+  color: rgb(0, 255, 221);
+} */
+/* p ~ div {
+  color: rgb(0, 255, 221);
+} */
+/* [title] {
+  color: rgb(0, 255, 221);
+} */
+/* div[title] {
+  color: rgb(0, 255, 221);
+} */
+/* div[title="501"] {
+  color: rgb(0, 255, 221);
+} */
+/* [title~="div"] {
+  color: aqua;}*/
+/* [title^="div"] {
+    color: aqua;
+  }
+   */
+[title^="50"] {
+  color: aqua;
+}

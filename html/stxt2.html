@@ -193,4 +193,16 @@ jouwat hayda el element 2andou class child color: red; } .parent > .child {
 color: red; }ama hone fa iza el element menou maktoub de3ri tahet el abb taba2ou
 moubasharaten ya2ni iza element jouwat div aw shi ma byetlawan la2nou anta hatet
 hed el class > w haydi ya2ni iza ma el element de3ri tahet el parent ma
-byetlawen
+byetlawen div + p { color: rgb(0, 255, 221); } haydi ya2ni iza el element p
+ba2ad el div de5ri ma ye5ode wala 5asia p ~ div { color: rgb(0, 255, 221); }
+ya2ni kel div ablou fi p whata law kan fi shi bayneten [title] { color: rgb(0,
+255, 221); } [title] ya2ni kel element 2andou hayda el attribute byetlawan
+moumken aya attribute 3ayrou div[title] { color: rgb(0, 255, 221); } haydi ya2ni
+kel div 2andou attribute title byetlawen div[title="501"] { color: rgb(0, 255,
+221); } ya2ni 2ami barem 2ala kel div 2andou hayda el title hata yelawounou
+-input[type="submit"] haydi ya2ni kel input 2andou type submit [title~="div"] {
+color: aqua; }ya2ni 2am nebarem 2ala kel element 2andou title fi bi2albou div w
+tkoun kelma lahela ma daa2a fia wel keleme tenie [title*="div"] { color: aqua; }
+haydi aya element 2andou title div da2e2 bi kalme aw la2 kelou bilawounou
+[title^="s0"] { color: aqua; } haydi ya2ni kel element 2andou title bibalesh bi
+s0 ya2ni awalou w hata law fi kalem ba2ad el s0 bel title el mohem yebalesh bos0
