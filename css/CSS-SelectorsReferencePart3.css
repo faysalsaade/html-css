@@ -1,0 +1,59 @@
+/* CSS Selectors
+===============
+=====part1=====
+===============
+-element =>[p,div,h2]
+element otherelement=>div p
+.class-name
+#id-name
+.parent .child
+.class-one.class-two 
+.class-name div,.class-name p
+element.class-name
+====================
+=======part2======== 
+====================
+- element + other element => [div + p ]
+-Element ~ other Elements => [p ~ div ]
+-[attribute]
+-element[attribute]
+-[attribute="value"]
+- element[attribute="value"]
+-input[type="submit"]
+[attribute~=value] => contains a word 
+[attribute*=value] => contains a string 
+[attribute^=value] => start with a string 
+===================
+====== part3 ======
+===================
+- :first-child
+- :last-child
+- :first of type
+- :last of type
+- :only-child 
+*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* p:first-child {
+  color: rgb(255, 5, 255);
+} */
+/* p:last-child {
+  color: rgb(255, 5, 255);
+} */
+/* p:first-of-type {
+  color: rgb(255, 5, 255);
+} */
+/* p:last-of-type {
+  color: rgb(255, 5, 255);
+} */
+/* p:only-child {
+  color: rgb(255, 5, 255);
+} */
+p:only-of-type {
+  color: rgb(255, 5, 255);
+}
