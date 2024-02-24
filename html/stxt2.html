@@ -215,4 +215,19 @@ yetlawen p:only-child { color: rgb(255, 5, 255); } haydi ya2ni hata yetlawam
 lazem yekoun p wel el child el wahid bel abb ya2ni ma lazem yekoun wala
 child(h1,div......wala child 3ayrou) p:only-of-type { color: rgb(255, 5, 255); }
 haydi ya2ni lazem yekoun p w yekoun el wahid men naw2ou ya2ni ma yekoun fi wala
-p bi hayda el abb 3ayrou howa
+p bi hayda el abb 3ayrou howa p:not(:first-child) { color: rgb(0, 204, 255); }
+haydi ya2ni anou kel p yelawanou ila awal p (first-child) w moumken kamen hate
+class p:not(.speacial) p:nth-child(3) { color: rgb(0, 204, 255); }iza badek
+telawen shi p w mena la first-child wala last-child bethat ra2ma
+p:nth-child(even/odd) { color: rgb(0, 204, 255); } w moumken nahet even ya2ni
+kel el p yali 2andon ra2em paires ya2ni ex 1 p ma byetlawan tani p byetlawan
+la2nou paires w 2ana kamen mahal even odd w haydi ya2ni el p el 2andon ra2em
+impaires ex awal p byetlawan el tani la2 la2nou el tani w 2 mena impaires fa ma
+btetlawen p:nth-last-child(10) { color: rgb(0, 204, 255); }nth-last-child ya2ni
+betbalesh te2ad men el i5er element ya2ni men tahet la fa2 p:nth-of-type(2) {
+color: rgb(0, 204, 255); } hone hata ma kel mara 2ede fini ista2mel nth-of-type
+(n)ya2ni iza 2ana akter men div w 2ana badi lawan tani div bista2mel
+div:nth-of-type(2) w hata law fi 2abel haydol el div ktir p la ye2atoshen el
+browser la2non men div w haydi bet2ad men first lal last p:nth-last-of-type(2) {
+color: rgb(0, 204, 255); } iza bedna na2ad men last lal first mensta2mel haydi
+p:nth-last-of-type bte2ad men el a5ir lal awal

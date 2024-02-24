@@ -1,0 +1,62 @@
+/* CSS Selectors
+===============
+=====part1=====
+===============
+-element =>[p,div,h2]
+element otherelement=>div p
+.class-name
+#id-name
+.parent .child
+.class-one.class-two 
+.class-name div,.class-name p
+element.class-name
+====================
+=======part2======== 
+====================
+- element + other element => [div + p ]
+-Element ~ other Elements => [p ~ div ]
+-[attribute]
+-element[attribute]
+-[attribute="value"]
+- element[attribute="value"]
+-input[type="submit"]
+[attribute~=value] => contains a word 
+[attribute*=value] => contains a string 
+[attribute^=value] => start with a string 
+===================
+====== part3 ======
+===================
+- :first-child
+- :last-child
+- :first of type
+- :last of type
+- :only-child 
+=================
+======part4======
+=================
+- :not(:selectors)
+- :nth-child(n) [nth master a web for the nth child]
+- :nth-last-child(n) 
+- :nth-of-type(n)
+- :nth-last-of-type
+
+*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* p:not(:first-child) {
+  color: rgb(0, 204, 255);
+} */
+/* p:nth-child(even) {
+  color: rgb(0, 204, 255);
+} */
+/* p:nth-last-child(10) {
+  color: rgb(0, 204, 255);
+} */
+p:nth-of-type(2) {
+  color: rgb(0, 204, 255);
+}
