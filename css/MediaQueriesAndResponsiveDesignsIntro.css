@@ -7,7 +7,7 @@
   width: 1200px;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 20px auto;
+  margin:  20px auto;
 }
 .parent > div {
   background-color: blue;
