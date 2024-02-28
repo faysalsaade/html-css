@@ -1,26 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.parent div {
+  padding: 20px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+}
 /* mobile  */
-@media (min-width: 0px) and (max-width: 767px) {
-  .parent > div {
-    background-color: blue;
+@media (max-width: 767px) {
+  .parent div {
   }
 }
 
 /* small screens */
 @media (min-width: 768px) and (max-width: 991px) {
-  .parent > div {
-    background-color: green;
+  .parent div {
+    width: calc(25% - 5px);
   }
 }
 /* medium screens  */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .parent > div {
-    background-color: red;
+@media (min-width: 992px) {
+  .parent div {
   }
 }
 
 /* large screens  */
 @media (min-width: 1200px) {
-  .parent > div {
-    background-color: black;
+  .parent div {
   }
 }
