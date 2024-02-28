@@ -1,0 +1,26 @@
+/* mobile  */
+@media (min-width: 0px) and (max-width: 767px) {
+  .parent > div {
+    background-color: blue;
+  }
+}
+
+/* small screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent > div {
+    background-color: green;
+  }
+}
+/* medium screens  */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .parent > div {
+    background-color: red;
+  }
+}
+
+/* large screens  */
+@media (min-width: 1200px) {
+  .parent > div {
+    background-color: black;
+  }
+}
