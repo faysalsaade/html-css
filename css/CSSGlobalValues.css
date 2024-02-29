@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+div {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #eee;
+  padding: 20px;
+  margin: 5px;
+  border: 2px solid blue;
+}
+/* p {
+  border: inherit;
+} */
+/* p {
+  color: initial;
+} */
