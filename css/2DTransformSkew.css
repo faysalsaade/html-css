@@ -1,7 +1,7 @@
 p {
   position: relative;
   color: white;
-  margin: 20px auto;
+  margin:  20px auto;
   width: fit-content;
 }
 p:before {
